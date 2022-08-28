@@ -1,6 +1,6 @@
 # @supercoder123/localstorage-with-expiry
 
-Micro library which adds expiry time (in seconds) to localstorage 
+Micro library written in typescript which adds expiry time (in seconds) to localstorage 
 
 ## Installation
 
@@ -32,6 +32,9 @@ ls.setItem('key', {test: 'yay'});
 
 // get Item
 ls.getItem('key');
+
+// remove Item
+ls.removeItem('key');
 
 // clear all
 ls.clear();

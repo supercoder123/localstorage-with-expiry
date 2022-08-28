@@ -30,7 +30,7 @@ export default class {
       }
   }
 
-  getExpiryTimeStamp(expiry: number) {
+  private getExpiryTimeStamp(expiry: number) {
       return expiry * 1000 + Date.now();
   }
 
