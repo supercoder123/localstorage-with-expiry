@@ -1,6 +1,6 @@
 {
   "name": "@supercoder123/localstorage-with-expiry",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Local storage with expiry",
   "main": "dist/lib-esm/index.js",
   "scripts": {
