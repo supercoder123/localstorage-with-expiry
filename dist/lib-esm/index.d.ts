@@ -3,7 +3,7 @@ export default class {
     private keyPrefix;
     constructor(storage?: any);
     setItem(key: string, value: any, expiry?: number): void;
-    getExpiryTimeStamp(expiry: number): number;
+    private getExpiryTimeStamp;
     getItem(key: string): any;
     list(): void;
     removeItem(key: string): any;
